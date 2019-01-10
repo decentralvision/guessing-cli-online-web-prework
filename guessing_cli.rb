@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  loop do 
+  loop do
       puts "Guess a number between 1 and 6."
       input = gets.chomp
       if input == 'exit'
@@ -19,3 +19,4 @@ def run_guessing_game
       end
   end
 end
+run_guessing_game
